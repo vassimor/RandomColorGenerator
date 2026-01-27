@@ -1,7 +1,12 @@
 This is a random color generator program.
 
 STEP BY STEP
+
 1.Generate a random hex color code
+
+
+
+
 ```bash
 node index.js
 
