@@ -20,6 +20,8 @@ node index.js
 
 
 2.Create a 31 x 9 block of ###### with the color that was generated .
+
+
 3.Put the hex code in the middle of this block
 
 
