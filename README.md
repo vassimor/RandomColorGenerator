@@ -1,11 +1,7 @@
 This is a random color generator program.
 
-STEP BY STEP
 
 1.Generate a random hex color code
-
-
-
 
 ```bash
 node index.js
@@ -18,13 +14,6 @@ node index.js
 
 ```
 
-
-2.Create a 31 x 9 block of ###### with the color that was generated .
-
-
-3.Put the hex code in the middle of this block
+When a user enters `node index.js` in the command line, a block of 31x9 `#` characters colored with a random color (using hex code, e.g. `#ff0000`) should be generated.
 
 
-
-
-The program is printing a random color  to the console everytime we run node index.js.
