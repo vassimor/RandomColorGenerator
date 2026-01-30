@@ -1,3 +1,4 @@
+import { registerHooks, stripTypeScriptTypes } from 'node:module';
 import chalk from 'chalk';
 import randomcolor from 'randomcolor';
 
