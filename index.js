@@ -1,11 +1,10 @@
-import { argv } from 'node:process';
 import chalk from 'chalk';
 import randomcolor from 'randomcolor';
 
 // const randomHex= '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
 
-const hue = argv[2];
-const luminosity=argv[3]
+const hue = process.argv[2];
+const luminosity=process.argv[3]
 
 const number = randomcolor({hue:hue,luminosity:luminosity})
 
