@@ -2,7 +2,7 @@ import { argv } from 'node:process';
 import chalk from 'chalk';
 import randomcolor from 'randomcolor';
 
-//const randomHex= '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
+// const randomHex= '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
 
 const hue = argv[2];
 const luminosity=argv[3]
