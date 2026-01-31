@@ -1,20 +1,19 @@
-import { registerHooks, stripTypeScriptTypes } from 'node:module';
 import chalk from 'chalk';
 import randomcolor from 'randomcolor';
 
 // const randomHex= '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
 
 const hue = process.argv[2];
-const luminosity=process.argv[3]
+const luminosity = process.argv[3];
 
-const number = randomcolor({hue:hue,luminosity:luminosity})
+const number = randomcolor({ hue: hue, luminosity: luminosity });
 
 console.log(chalk.hex(number).bold(`xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`));
-console.log(chalk.hex(number).bold("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
-console.log(chalk.hex(number).bold("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
-console.log(chalk.hex(number).bold("xxxxx                     xxxxx"));
+console.log(chalk.hex(number).bold('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'));
+console.log(chalk.hex(number).bold('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'));
+console.log(chalk.hex(number).bold('xxxxx                     xxxxx'));
 console.log(chalk.hex(number).bold(`xxxxx         ${number}     xxxxx`));
-console.log(chalk.hex(number).bold("xxxxx                     xxxxx"));
-console.log(chalk.hex(number).bold("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
-console.log(chalk.hex(number).bold("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
-console.log(chalk.hex(number).bold("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
+console.log(chalk.hex(number).bold('xxxxx                     xxxxx'));
+console.log(chalk.hex(number).bold('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'));
+console.log(chalk.hex(number).bold('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'));
+console.log(chalk.hex(number).bold('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'));
